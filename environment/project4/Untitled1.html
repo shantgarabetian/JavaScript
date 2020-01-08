@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payroll Calculator / ATM </title>
+         
+    </head>
+    <body>
+        <h3>Payroll Calculator</h3><br>
+    input hours<input id="hours" type="number"><br>
+    
+    input payperhour<input id="payperhour" type="number"><br>
+     calculate groospay
+    <button onclick="input()">Grosspay</button><br>
+  
+    tax rate: click one please
+    <form>
+    <input type="radio" name="tax" id="single"> single
+    <input type="radio" name="tax" id="family"> family<br>
+    </form>
+      calculate net pay
+   <button onclick ="print_netpay()">Net Pay</button><br>  
+
+   <h3>ATM</h3><br>
+   current balance<button onclick="balanceCheck()">Current Balance</button><br>
+   
+   input deposit amount<input id="amount" type="number"><br>
+   <button onclick ="print_deposit()">Total Deposit</button><br>
+   
+   input withdraw amount<input id ="cash_withdraw" type="number"><br>
+   <button onclick ="print_withdraw()">Total Amount After Withdraw</button><br>
+   
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

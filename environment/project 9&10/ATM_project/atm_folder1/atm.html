@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <title> ATM </title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1> ATM Program</h1>
+    </header>
+
+    <main>
+
+        <h1> ATM Program</h1>
+        <div id=feedback></div>
+        <form name="payrollForm" action="" method="get">
+            <fieldset id="wts">
+                <legend>Deposit Amount</legend>
+                <p>Please input the amount you want to deposit below.</p>
+                <label><span>Deposit Amount</span><input id="deposit" name="deposit" type="number" value="">US Dollars</label>
+                <p>In order to accuratly calculate your total balance,Please click the calculate button below.</p>
+                <button id="clickDeposit">Deposit</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Withdrw Amount</legend>
+                <p>Please input the amount you want to withraw below.</p>
+                <label><span>Withdrw Amount</span><input id="withdraw" name="withdraw" type="number" value="">US Dollars</label>
+                <p>In order to accuratly calculate your total balance,Please click the calculate button below.</p>
+                <button id="clickWithdraw">Withdraw</button>
+            </fieldset>
+
+        </form>
+
+
+
+        <h2>Account Summary</h2>
+        <div>
+            <p>Click to calculate your Balance.</p>
+        </div>
+ 
+        <button id="clickButton">My Balance</button>
+        <div id="feedback"></div>
+    </main>
+
+</body>
+
+</html>
